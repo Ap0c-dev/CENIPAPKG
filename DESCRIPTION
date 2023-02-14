@@ -1,0 +1,18 @@
+Package: CENIPAPKG
+Type: Package
+Title: Case study of aeronautical ocurrences in Brazilian Civil Aviation
+Version: 0.1.0
+Authors@R: person("Alcantara", "Tiago", email = "tiagoalcn@hotmail.com",
+  role = c("aut", "cre"))
+Maintainer: The package maintainer <tiagoalcn@hotmail.com>
+Description: This package is being developed for my learning, and aims to carry out a detailed analysis of aeronautical occurrences recorded in Brazilian Civil Aviation. 
+    The package includes functionality to collect, process and visualize relevant data to understand patterns, trends and factors that contribute to these occurrences.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 4.2.2)
+Imports:
+  DBI
+  RJDBC
+  RMySQL
